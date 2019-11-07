@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "jsonplaceholder/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "jsonplaceholder"
-  spec.version       = Jsonplaceholder::VERSION
+  spec.name          = "JSONPlaceholder"
+  spec.version       = JSONPlaceholder::VERSION
   spec.authors       = ["Miguel Torres"]
   spec.email         = ["migueltg93@gmail.com"]
 
@@ -39,4 +39,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+
+  spec.add_dependency "httparty", "~> 0.17.1"
 end

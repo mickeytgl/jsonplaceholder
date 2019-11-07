@@ -8,9 +8,9 @@
 Contributing	README.md	/^## Contributing$/;"	s
 Development	README.md	/^## Development$/;"	s
 Installation	README.md	/^## Installation$/;"	s
+JSONPlaceholder	lib/jsonplaceholder/version.rb	/^module JSONPlaceholder$/;"	m
 Jsonplaceholder	README.md	/^# Jsonplaceholder$/;"	c
 Jsonplaceholder	lib/jsonplaceholder.rb	/^module Jsonplaceholder$/;"	m
-Jsonplaceholder	lib/jsonplaceholder/version.rb	/^module Jsonplaceholder$/;"	m
 Jsonplaceholder	spec/jsonplaceholder_spec.rb	/^RSpec.describe Jsonplaceholder do$/;"	d
 License	README.md	/^## License$/;"	s
 TODO	lib/jsonplaceholder.rb	/^  module TODO$/;"	m	module:Jsonplaceholder
